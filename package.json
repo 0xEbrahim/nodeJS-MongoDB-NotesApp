@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "expressjs": "^1.0.1",
+    "mongoose": "^7.5.2",
+    "nodejs": "^0.0.0",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "name": "notes-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start:dev": "nodemon.cmd app.js"
+  },
+  "keywords": [],
+  "author": "Ebrahim El-Sayed",
+  "license": "ISC",
+  "description": "Simple",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xEbrahim/NodeJS-MongoDB-NotesApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/0xEbrahim/NodeJS-MongoDB-NotesApp/issues"
+  },
+  "homepage": "https://github.com/0xEbrahim/NodeJS-MongoDB-NotesApp#readme"
+}
